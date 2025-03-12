@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+
+$white: #FFFFFF;
+$yellow: #FFCB30;
+$green: #00A564;
+$offgreen: #9EFF00;
+$red: #F38232;
+$black: #242424;
+
+$font1: 'Big Shoulders Display', 'cursive';
+$font2: 'Syne', 'sans-serif';
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin bgCover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin fontMaker($family, $size, $weight, $lineHeight) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lineHeight;
+}
