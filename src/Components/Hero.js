@@ -156,9 +156,7 @@ const Hero = () => {
                 <header className="header" id="header">
                     <div className="container">
                     <div className="header__wrap">
-                        <a className="logo" href="index.html" onClick={handleReload} ref={logoRef}>
-                            <img src={logo} alt="logo" width="200" height="auto"/>
-                        </a>
+                        <img src={logo} alt="logo" width="200" height="auto" onClick={handleReload} ref={logoRef}/>
                         <ul ref={listRef}>
                             <li>
                                 <button className="main-btn"><a href="https://www.facebook.com/profile.php?id=61573893096320" target="_blank" rel="noreferrer">Visit Us</a></button>
@@ -170,7 +168,7 @@ const Hero = () => {
 
                 <section className="hero">
                     <div className="hero__text">
-                        <h1 className="title" ref={titleRef}>AWWFFLE!</h1>
+                        <h1 className="title" ref={titleRef}>CHOCO-ALERT!</h1>
                         <div className="hero__text__callTo">
                             <p ref={subtitleRef}>Awwbhaynagars first dedicated waffle spot.</p>
                         </div>
