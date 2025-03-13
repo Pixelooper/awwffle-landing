@@ -170,7 +170,7 @@ const Hero = () => {
                     <div className="hero__text">
                         <h1 className="title" ref={titleRef}>CHOCO-ALERT!</h1>
                         <div className="hero__text__callTo">
-                            <p ref={subtitleRef}>Awwbhaynagars first dedicated waffle spot.</p>
+                            <p ref={subtitleRef}>Awwwwbhaynagars First <br /> Dedicated <strong>Waffle</strong> Spot.</p>
                         </div>
                     </div>
                     <div className="hero__can">
