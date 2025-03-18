@@ -174,7 +174,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="hero__can">
-                        <img src={waffle} alt="waffle" width="1074" height="716" ref={waffleRef}/>
+                        <img src={waffle} alt="waffle" width="352" height="auto" ref={waffleRef}/>
                     </div>
                     <div className="hero__anime" ref={animeRef}>
                         <div className="hero__anime__wrapper">

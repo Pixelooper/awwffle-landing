@@ -333,19 +333,19 @@ a, select, input, textarea, button {
 .hero__can img {
   -webkit-animation: float 4s ease-in-out infinite;
           animation: float 4s ease-in-out infinite;
-  width: 35rem;
+  width: 22rem;
   height: auto;
-}
-
-@media (min-width: 576px) and (max-width: 991.98px) {
-  .hero__can img {
-    width: 30rem;
-  }
 }
 
 @media (max-width: 575.98px) {
   .hero__can img {
-    width: 24rem;
+    width: 20rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .hero__can img {
+    width: 22rem;
   }
 }
 

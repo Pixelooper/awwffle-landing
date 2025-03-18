@@ -197,28 +197,6 @@ a, select , input , textarea , button{
             @media (min-width: 1300px) and (max-width: 1531.98px){
                 font-size: 10rem;
             }
-
-            // @media (max-width: 575.98px) {
-            //     font-size: 12px;
-            // }
-            // @media (min-width: 576px) and (max-width: 991.98px) {
-            //     font-size: 12px;
-            // }
-            // @media (min-width: 992px) and (max-width: 1299.98px) {
-            //     font-size: 12px;
-            // }
-            // @media (min-width: 1300px) and (max-width: 1531.98px){
-            //     font-size: 15px;
-            // }
-            // @media (min-width: 2500px) {
-            //     font-size: 18px;
-            // }
-            // @media (max-width: 320px) {
-            //     font-size: 9px;
-            // }
-            // @media (min-width: 321px) and (max-width: 376px) {
-            //     font-size: 10px;
-            // } 
         }
         &__callTo{
             p{
@@ -238,13 +216,13 @@ a, select , input , textarea , button{
         z-index: 1;
         img {
             animation: float 4s ease-in-out infinite;
-            width: 35rem;
+            width: 22rem;
             height: auto;
-            @media (min-width: 576px) and (max-width: 991.98px) {
-                width: 30rem;
-            }
             @media (max-width: 575.98px) {
-                width: 24rem;
+                width: 20rem;
+            }
+            @media (min-width: 576px) and (max-width: 991.98px) {
+                width: 22rem;
             }
         }
         @keyframes float {
